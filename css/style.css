@@ -1,0 +1,78 @@
+body{
+    background-color: #E8AA8C !important;
+}
+
+
+header{
+    height: 100px !important;
+}
+
+
+nav{
+    height:auto;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+nav a:hover{
+    color:darksalmon;
+}
+
+footer{
+ background-color: lightgray;
+ height: 100px;
+}
+
+
+
+/*----- général-----  */
+
+
+.w-33{
+    min-width:33%;
+}
+
+
+
+.divider{
+
+    background-color: rgb(231, 231, 223);
+    height: 35px;
+    width: 0.5px;
+    
+}
+
+
+
+
+ /* style perso */
+
+
+.carousel-inner {
+    position: relative !important;
+    width: 100% !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+#btn-add:hover{
+    background-color: rgb(72, 72, 161)!important;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+ /* écrasement style boootstrap */
